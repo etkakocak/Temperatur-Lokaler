@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Temperatur Lokaler Portal</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+    <p>Powered by:</p>
+    <img src="https://download.logo.wine/logo/Python_(programming_language)/Python_(programming_language)-Logo.wine.png" alt="Logo" class="logo">
+    </div>
+    <nav>
+      <a href="IP-adress here">premises name</a>
+    </nav>
+  </header>
+  <br>
+  <br>
+  <p>Beskrivningar av lysdioder i enheten:</p>
+  <div class="light-description">
+    <table>
+      <tr>
+        <td><div class="light red">Röd</div></td>
+        <td>ER001: Blinkande rött led betyder att temperatur sensor av enheten är ur funktion eller skadad. Kontakta ek223zf@student.lnu.se för att skicka enheten till service.</td>
+      </tr>
+      <tr>
+        <td><div class="light blue">Blå</div></td>
+        <td>Blinkade blå led betyder att lokaltemperatur är ganska mindre än normal mänsklig kroppstemperatur och lokalen behöver värmas upp.</td>
+      </tr>
+      <tr>
+        <td><div class="light white">Vit</div></td>
+        <td>Blinkande vit led betyder att lokalens fuktighetsgrad är högre än normalt.</td>
+      </tr>
+    </table>
+  <script src="script.js"></script>
+</body>
+</html>
